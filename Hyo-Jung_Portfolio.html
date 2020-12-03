@@ -1,0 +1,1069 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <title>Hyo-Jung Portfolio </title>
+
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="개발자 김효중의 포트폴리오입니다." />
+        <meta name="keywords" content="creative, cv, designer,  online cv, online resume, powerful portfolio, professional, professional resume, responsive, resume, vcard " />
+        <meta name="developer" content="Md. Siful Islam">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                
+        <!-- FAV AND ICONS   -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="assets/images/apple-icon.png">
+        <link rel="shortcut icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
+        <link rel="shortcut icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+            
+        <!-- Google Font-->
+        <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
+        <!-- Animate CSS-->
+        <link rel="stylesheet" href="assets/plugins/css/animate.css">
+        <!-- Owl Carousel CSS-->
+        <link rel="stylesheet" href="assets/plugins/css/owl.css">
+        <!-- Fancybox-->
+        <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+        
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- Colors -->
+        <link rel="alternate stylesheet" href="assets/css/colors/blue.css" title="blue">
+        <link rel="stylesheet" href="assets/css/colors/defauld.css" title="defauld">
+        <link rel="alternate stylesheet" href="assets/css/colors/green.css" title="green">
+        <link rel="alternate stylesheet" href="assets/css/colors/blue-munsell.css" title="blue-munsell">
+        <link rel="alternate stylesheet" href="assets/css/colors/orange.css" title="orange">
+        <link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple"> 
+        <link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate">
+        <link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow">
+        
+    </head>
+
+    <body class="dark-vertion black-bg">
+    <div id="kakao-talk-channel-chat-button"></div>
+    <script type="text/javascript">
+      
+      // 채널 1:1 채팅 버튼 생성
+      Kakao.Channel.createChatButton({
+        container: '#kakao-talk-channel-chat-button',
+        channelPublicId: '_UxhLxnK',
+        title: 'question',
+        size: 'small',
+        color: 'yellow',
+        shape: 'pc',
+        supportMultipleDensities: true,
+      });
+    </script>
+        <!-- Start Loader -->
+        <div class="section-loader">
+            <div class="loader">
+                <div></div>
+                <div></div> 
+            </div>
+        </div>
+        <!-- End Loader -->
+        
+        <!--
+        ===================
+           내비게이션 바
+        ===================
+        -->
+        <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav" id="mh-header">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/images/fedalon_logo_2.png" alt="maha" class="img-fluid">
+                            <!-- <h2>Maha</h2> -->
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon icon"></span>
+                        </button>
+                    
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-0 ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#mh-home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#mh-skills">Skills</a>
+                                </li>                                
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#mh-experience">Education</a>
+                                </li>                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-portfolio">Portfolio</a>
+                                </li>                               
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="#mh-pricing">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-blog">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#mh-contact">Contact</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--
+        ===================
+           Home
+        ===================
+        -->
+        <section class="mh-home image-bg home-2-img" id="mh-home">
+            <div class="img-foverlay img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator xs-column-reverse vertical-middle-content home-padding">
+                        <div class="col-sm-6">
+                            <div class="mh-header-info">
+                                <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                    <span>Hello I'm</span>
+                                </div>
+                                
+                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">김효중</h2>
+                                <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">다양한 실무경험을 통해 <br>회사 내 협업 활동에 자신 있는 인재입니다.</h4>
+                                
+                                <ul>
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-envelope"></i><a href="mailto:hyoj0942@gmail.com">
+                                    hyoj0942@gmail.com</a></li>
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i class="fa fa-phone"></i><a href="callto:01029550942">010 2955 0942</a></li>
+                                    <!-- <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-map-marker"></i><address>37, Pollsatnd, New York, United State</address></li> -->
+                                </ul>
+                                
+                                <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                    <!-- <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li> -->
+                                    <li><a href="https://github.com/hyoj0942"><i class="fa fa-github"></i></a></li>
+                                    <!-- <li><a href=""><i class="fa fa-dribbble"></i></a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                <div class="img-border">
+                                    <img src="assets/images/hero.jpg" alt=""  class="img-fluid animated">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           ABOUT
+        ===================
+        -->
+        <section class="mh-about" id="mh-about">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-about-img shadow-2 wow fadeInUp animated" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                            <img src="assets/images/ab-img_2.png" alt="" class="img-fluid vert-move">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-about-inner">
+                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">안녕하세요, 개발자 김효중입니다. <br>
+                            학부생활중 진행했던 스타트업 경영과 연구실에서의 다양한 협업 프로젝트,<br> 외주 경험을 거치며 팀 프로젝트에 대해 자신있는 신입 개발자입니다.
+                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">보유기술 :</h5></p>
+
+                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <ul>
+                                    <li><span>HTML</span></li>
+                                    <li><span>css</span></li>
+                                    <li><span>Javascript</span></li>
+                                    <li><span>Android Studio</span></li>
+                                    <li><span>Django</span></li>
+                                    <li><span>Bootstrap</span></li>
+                                    <li><span>Elastic</span></li>
+                                    <li><span>Node JS</span></li>
+                                    <li><span>AWS</span></li>
+                                    <li><span>My SQL</span></li>
+                                </ul>
+                            </div>
+                            <a href="assets/files/resume.pdf" download class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">이력서 다운로드 <i class="fa fa-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           주요 기술
+        ===================
+        -->
+        <section class="mh-service">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                        <h2>주요 기술</h2>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <i class="fa fa-area-chart purple-color"></i>
+                            <h3>빅데이터 분석</h3>
+                            <p>
+                                대량의 로그를 실시간으로 집계해 분석하고 중간 매개자 없이 온라인으로 직접 데이터 접근하여 필요한 관점에 따라 데이터 분석이 가능한 OLAP 방식을 기반한 ELK Stack을 이용하여 실시간 데이터 분석 및 시각화하여 학술대회 연구논문 투고경험
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <i class="fa fa-code iron-color"></i>
+                            <h3>웹 개발</h3>
+                            <p>
+                                Django를 활용한 모델, 뷰, 템플릿에 대한 구조를 이해하고 연결<br>다양한 Form 과 View를 활용한 Front 개발<br>다양한 Model함수를 통한 DB 테이블 생성가능<br>외주 프로젝트 배포를 통한 Full Stack 개발경험
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                            <i class="fa fa-android sky-color"></i>
+                            <h3>애플리케이션 개발</h3>
+                            <p>
+                                Android Studio를 활용하여 코딩 자율학습 애플리케이션 개발 경험<br>
+                                Java언어와 Kotlin언어를 사용하여 다양한 UI제작 경험<br>
+                                PHP와 Firebase를 활용한 DB 테이블 생성가능
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+          주요 프로젝트
+        ===================
+        -->
+        <section class="mh-featured-project image-bg featured-img-one">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="section-title col-sm-12">
+                            <h3>주요 프로젝트</h3>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="mh-single-project-slide-by-side row">
+                                <!-- Project Items -->
+                                <div class="col-sm-12 mh-featured-item">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                                <img src="assets/images/p-2_1.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="mh-featured-project-content">
+                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Full Stack Development</h4>
+                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">제천가정폭력상담소</h2>
+                                                <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">- Outsourcing Project</span>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">비영리단체인 제천가정폭력상담소 웹페이지 Full Stack 개발을 의뢰받고 진행하였다.<br> Bootstrap을 이용한 Front End개발과 Django의 Python언어를 사용한 Back End개발 그리고 Pythonanywhere, AWS를 이용한 Dev Ops 배포를 아우르는 프로젝트를 진행하여 웹의 전반적인 지식을 경험치로 쌓았다.</p>
+                                                <a href="http://rmaehrud00.pythonanywhere.com/index/" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">자세히 보기</a>
+                                                <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                                    <h5 style="margin-top: 30px;" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">핵심사용기술 :</h5>
+                                                    <ul>
+                                                        <li><span>Django</span></li>
+                                                        <li><span>Bootstrap</span></li>
+                                                        <li><span>Python</span></li>
+                                                        <li><span>Pythonanywhere</span></li>
+                                                        <li><span>AWS</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Project Items -->
+                                <div class="col-sm-12 mh-featured-item">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                                <img src="assets/images/p-2_2.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="mh-featured-project-content">
+                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                                Android Application Development
+                                                </h4>
+                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">코딩 자율학습 애플리케이션</h2>
+                                                <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">- Capstone Design Project</span>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">캡스톤디자인 실습과제로 진행된 프로젝트로서 팀장 역할을 맡아서 진행했다.
+                                                코딩을 스마트폰을 통해 간편하게 배울 수 있는 어플을 만드는 것을 궁극적인 제작목적으로 두며 개발을 진행하였다.
+                                                아이디어 회의를 통해 애플리케이션 목적을 설립한 후 시장조사를 했으며, 시중에 있는 코딩학습 어플들의 한글화가 안돼있는점과 복잡한 UI로 인한 접근성의 어려움, 비싼가격등의 문제점들을 파악했고, 그에대한 문제점을 기반으로 전체적인 제작 흐름 구상안을 기획하였다.
+                                                </p>
+                                                <a href="assets/files/capstone.pdf" download class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">자세히 보기</a>
+                                                <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                                    <h5 style="margin-top: 30px;" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">핵심사용기술 :</h5>
+                                                    <ul>
+                                                        <li><span>Android Studio</span></li>
+                                                        <li><span>Java</span></li>
+                                                        <li><span>Kotlin</span></li>
+                                                        <li><span>PHP</span></li>
+                                                        <li><span>HTML</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Project Items -->
+                                <div class="col-sm-12 mh-featured-item">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                                <img src="assets/images/p-2_3.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="mh-featured-project-content">
+                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Big Data Analysis</h4>
+                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">빅데이터 시각화 시스템</h2>
+                                                <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">- Academic Conference</span>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">실시간 로그 수집을 통해 도로 위 교통 정보, 공사정보, 사고정보 등을 실시간으로 분석하여 시각화함으로써 보다 편리하게 도로 위 교통상활을 확인할 수 있도록 하였다. 기존의 온라인 데이터는 사용자가 볼 수 있는 데이터가 대부분 텍스트 또는 표로 제공되어 소비자 관점에서 가독성이 떨어지는 문제가 발생한다. 이러한 문제를 해결하기 위해 ELK스택을 기반한 키바나를 이용하여 대시보드, 캔버스, 그래프 등의 형태로 시각화하여 교통 정보 관리 행동 패턴의 가독성을 높였다.</p>
+                                                <a href="assets/files/elasticsearch.pdf" download class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">자세히 보기</a>
+                                                <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                                    <h5 style="margin-top: 30px;" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">핵심사용기술 :</h5>
+                                                    <ul>
+                                                        <li><span>Elasticsearch</span></li>
+                                                        <li><span>Logstash</span></li>
+                                                        <li><span>Kibana</span></li>
+                                                        <li><span>Curator</span></li>
+                                                        <li><span>Amazon S3</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End: .row -->
+                </div>
+            </div>
+        </section>  
+        
+        <!--
+        ===================
+           SKILLS
+        ===================
+        -->
+        <section class="mh-skills" id="mh-skills">
+            <div class="home-v-img">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="section-title text-center col-sm-12">
+                            <!--<h2>Skills</h2>-->
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-skills-inner">
+                                <div class="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                    <h3>언어 Skills</h3>
+                                    <div class="each-skills">
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Python</div>
+                                                    <div class="percentagem-num">86%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 86%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">HTML/Css/Javascripts</div>
+                                                    <div class="percentagem-num">75%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 75%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">C</div>
+                                                    <div class="percentagem-num">38%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 38%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Kotlin</div>
+                                                    <div class="percentagem-num">17%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 17%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>                                    
+                                        
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Java</div>
+                                                    <div class="percentagem-num">38%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 38%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">C++</div>
+                                                    <div class="percentagem-num">17%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 17%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <h3>협업 Skills</h3>
+                                <ul class="mh-professional-progress">
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="95"></div>
+                                        <div class="pr-skill-name">의사소통</div>
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="55"></div> 
+                                        <div class="pr-skill-name">리드</div>
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="86"></div>
+                                        <div class="pr-skill-name">프로젝트 관리</div>
+                                    </li> 
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="60"></div>
+                                        <div class="pr-skill-name">창의력</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           EDUCATION
+        ===================
+        -->
+        <section class="mh-experince image-bg featured-img-one_2" id="mh-experience">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-education">
+                                <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">학력/어학</h3>
+                                <div class="mh-education-deatils">
+                                    <!-- Education Institutes-->
+                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                        <h4>어학연수 <a href="http://www.semyung.ac.kr/">필리핀</a></h4>
+                                        <div class="mh-eduyear">2006-2007</div>
+                                        <p>초등학교 4학년때 부모님과
+                                        떨어져 15개월간 필리핀에서 생활했고,<br>1년동안 현지학교를 다니며 기본 영어 회화실력을 다졌으며,<br>타지생활에 대한 적응력을 기르는 좋은 계기가
+                                        됨</p>
+                                    </div>                                
+                                    <!-- Education Institutes-->
+                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                        <h4>이공계열 <a href="http://www.semyung.ac.kr/">수성고등학교</a></h4>
+                                        <div class="mh-eduyear">2012-2015</div>
+                                        <p>고등학교 수업 중 C언어를 접하게 되어 큰 흥미를 느꼈고,<br>컴퓨터학부에 들어가는 큰 계기가 됨</p>
+                                    </div>                                
+                                    <!-- Education Institutes-->
+                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                        <h4>컴퓨터학부 <a href="http://www.semyung.ac.kr/">세명대학교</a></h4>
+                                        <div class="mh-eduyear">2015-2021</div>
+                                        <p>4년간 학부생활을 하며 다양한 과목에 대한 배움과 지식을 습득하여 경험치로 쌓아 4학년때 연구실에 들어갔으며 WM's 연구팀과 함께 다양한 프로젝트 경험을 쌓아 올렸음</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-work">
+                                 <h3>자격증/수상내역</h3>
+                                <div class="mh-experience-deatils">
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                        <h4>MOS PowerPoint 2010 <a href="">Microsoft</a></h4>
+                                        <div class="mh-eduyear">2015.12.</div>
+                                        <span>합격/점수 :</span>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>최종합격</li>
+                                        </ul>
+                                    </div>                                
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                        <h4>1종대형운전면허 <a href="">경찰청(운전면허시험관리단)</a></h4>
+                                        <div class="mh-eduyear">2018.12.</div>
+                                        <span>합격/점수 :</span>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>최종합격</li>
+                                        </ul>
+                                    </div>                                
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                        <h4>캡스톤디자인 경진대회 <a href="">세명대학교</a></h4>
+                                        <div class="mh-eduyear">2020.10.</div>
+                                        <span>합격/점수 :</span>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>대상</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>       
+        
+        <!--
+        ===================
+           PORTFOLIO
+        ===================
+        -->
+        <section class="mh-portfolio" id="mh-portfolio">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                        <h3>포트폴리오</h3>
+                    </div>
+                    <div class="part col-sm-12">
+                        <div class="portfolio-nav col-sm-12" id="filter-button">
+                            <ul>
+                                <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>모두보기</span></li>
+                                <li data-filter=".school" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>교내활동</span></li>
+                                <li data-filter=".social" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>사회활동</span></li>
+                                <li data-filter=".external" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>대외활동</span></li>
+                                <li data-filter=".ui" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>Photography</span></li>
+                            </ul>
+                        </div>
+                        <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <div class="portfolioContainer row">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 social">
+                                    <figure>
+                                        <img src="assets/images/portfolio/c_1.jpg" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">조혈모(골수)세포 기증</h5>
+                                            <span class="sub-title">사회활동</span>
+                                            <a data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 school">
+                                    <figure>
+                                        <img src="assets/images/portfolio/s_2.jpg" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">캡스톤 디자인 경진대회 대상</h5>
+                                            <span class="sub-title">교내활동</span>
+                                            <a href="assets/images/portfolio/g2.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 school">
+                                    <figure>
+                                        <img src="assets/images/portfolio/s_3.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">코딩 자율학습 애플리케이션 개발</h5>
+                                            <span class="sub-title">교내활동</span>
+                                            <a href="assets/images/portfolio/g3.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 external">
+                                    <figure>
+                                        <img src="assets/images/portfolio/e_1.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">제천가정폭력상담소 Full Stack 개발</h5>
+                                            <span class="sub-title">대외활동</span>
+                                            <a href="assets/images/portfolio/g5.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 school">
+                                    <figure>
+                                        <img src="assets/images/portfolio/s_1.jpg" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">사제동행형 프로젝트</h5>
+                                            <span class="sub-title">교내활동</span>
+                                            <a href="assets/images/portfolio/g4.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 external">
+                                    <figure>
+                                        <img src="assets/images/portfolio/e_2.jpg" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">한국ITS학회 추계학술대회 논문발표</h5>
+                                            <span class="sub-title">대외활동</span>
+                                            <a href="assets/images/portfolio/g6.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 external">
+                                    <figure>
+                                        <img src="assets/images/portfolio/e_3.jpg" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">대한전자공학회 하계학술대회 논문투고</h5>
+                                            <span class="sub-title">대외활동</span>
+                                            <a href="assets/images/portfolio/g8.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                
+                            </div> <!-- End: .grid .project-gallery -->
+                        </div> <!-- End: .grid .project-gallery -->
+                    </div> <!-- End: .part -->
+                </div> <!-- End: .row -->
+            </div>
+            <div class="mh-portfolio-modal" id="mh">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-5">
+                            <h2>사제동행 산학협력 프로젝트</h2>
+                            <h5>- 프로젝트 내용</h3>
+                            <p>참여기업의 애로사항 해결을 위해 교수와 학생이 참여하는 프로젝트팀을
+                            구성하고 연구책임 교수 , 주관으로 정기세미나 및 회의를 진행하여 동기
+                            부여 및 학습활동에 기여하며, 산업자문과 기술이전 등을 통해 산학협력
+                            과정에 학생들을 참여시켜 학생 문제 해결형 경험 교육 추구 (혁신적
+                            PBL 교육방식)</p>       
+                            <p>빅데이터 기술과 시멘틱 문서 활용 기술을 이용한 차세대 검색 기술의
+                            기술 동향 및 기술 로드맵 조사를 통하여 데이터 검색 및 분석 기술의 
+                            핵심기술 확보
+                            </p>      
+                            <p>차세대 검색 기술의 빅데이터 기술을 응용한 데이터 검색 및 분석 기술
+                            에 대한 학습활동 기여를 위한 참여 기업과 기술 교류 진행</p>
+                            <p>빅데이터 기반의 차세대 검색 기술을 구현을 통해 결과물 도출 및 검증
+                            을 하여 동아리원의 학술대회 논문발표로 학생 WM’s 들의 역량 강화 및
+                            차세대 미래인재육성에 기여</p>
+                            <p> "빅데이터 기반의 모바일 그룹웨어 검색 모델 생성" 프로젝트 종료 후
+                            지속해서 성과 측정 및 프로그램 적용</p>
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>Big Data</span></li>
+                                    <li><span>Modeling</span></li>
+                                    <li><span>Json</span></li>
+                                </ul>
+                            </div>
+                            <a href="assets/files/s_1_1.pdf" download class="btn btn-fill">자세히 보기</a>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                <img src="assets/images/pr-0.jif" alt="" class="img-fluid">
+                                <p>All variations are organized separately so you can use / customize the template very easily.</p>    
+                                <img src="assets/images/pr-1.jif" alt="" class="img-fluid">
+                                <p>All variations are organized separately so you can use / customize the template very easily.</p>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           QUATES
+        ===================
+        -->
+        <!-- <section class="mh-quates image-bg home-2-img">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="each-quates col-sm-12 col-md-6">
+                            <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Interested to Work?</h3>
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Mirum est notare quam littera gothica.
+                            quam nunc putamus parum claram,</p>
+                            <a href="#mh-contact" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         -->
+        <!--
+        ===================
+           PRICING
+        ===================
+        -->
+       <!--  <section class="mh-pricing" id="mh-pricing">
+            <div class="">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Pricing Table</h3>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <i class="fa fa-calendar"></i>
+                                <h4>Full-time work</h4>
+                                <p>I am available for full time</p>
+                                <h5>$1500</h5>
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li>Music Writing</li>
+                                </ul>
+                                <a href="" class="btn btn-fill">Hire Me</a>
+                            </div>  
+                        </div>                    
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <i class="fa fa-file"></i>
+                                <h4>Fixed Price Project</h4>
+                                <p>I am available for fixed roles</p>
+                                <h5>$500</h5>
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li>Music Writing</li>
+                                </ul>
+                                <a href="" class="btn btn-fill">Hire Me</a>
+                            </div>  
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                <i class="fa fa-hourglass"></i>
+                                <h4>Hourley work</h4>
+                                <p>I am available for Hourley projets</p>
+                                <h5>$50</h5>
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li>Music Writing</li>
+                                </ul>
+                                <a href="" class="btn btn-fill">Hire Me</a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+        <!--
+        ===================
+           BLOG
+        ===================
+        -->
+       <!--  <section class="mh-blog image-bg featured-img-two" id="mh-blog">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Featured Posts</h3>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                             <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <img src="assets/images/b-3.png" alt="" class="img-fluid">
+                                <div class="blog-inner">
+                                    <h2><a href="blog-single.html">A life without the daily traffic jams</a></h2>
+                                    <div class="mh-blog-post-info">
+                                        <ul>
+                                            <li><strong>Post On</strong><a href="">24.11.19</a></li>
+                                            <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                        </ul>
+                                    </div>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                    <a href="blog-single.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <img src="assets/images/b-2.png" alt="" class="img-fluid">
+                                <div class="blog-inner">
+                                    <h2><a href="blog-single.html">Proportion are what’s really needed</a></h2>
+                                    <div class="mh-blog-post-info">
+                                        <ul>
+                                            <li><strong>Post On</strong><a href="">24.11.19</a></li>
+                                            <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                        </ul>
+                                    </div>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                    <a href="blog-single.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                <img src="assets/images/b-1.png" alt="" class="img-fluid">
+                                <div class="blog-inner">
+                                    <h2><a href="blog-single.html">Mounts of paper work to remember the way</a></h2>
+                                    <div class="mh-blog-post-info">
+                                        <ul>
+                                            <li><strong>Post On</strong><a href="">24.11.19</a></li>
+                                            <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                        </ul>
+                                    </div>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                    <a href="blog-single.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  -->
+        
+        <!--
+        ===================
+           Testimonial
+        ===================
+        -->
+       <!--  <section class="mh-testimonial" id="mh-testimonial">
+            <div class="home-v-img">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Client Reviews</h3>
+                        </div>
+                        <div class="col-sm-12 wow fadeInUp" id="mh-client-review" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>                    
+                            
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>                    
+                            
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+        <!--
+        ===================
+           FOOTER 3
+        ===================
+        -->
+        <footer class="mh-footer mh-footer-3" id="mh-contact">
+            <div class="container-fluid">
+                <div class="row section-separator">
+                    <div class="map-image image-bg col-sm-12">
+                        <div class="container mt-30">
+                            <div class="row">
+                                <!-- <div class="col-sm-12 col-md-6 mh-footer-address">
+                                    <div class="col-sm-12 xs-no-padding">
+                                        <div class="mh-address-footer-item dark-bg shadow-1 media wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                            <div class="each-icon">
+                                                <i class="fa fa-location-arrow"></i>
+                                            </div>
+                                            <div class="each-info media-body">
+                                                <h4>Address</h4>
+                                                <address>
+                                                    5th Avenue, 34th floor, <br> 
+                                                     New york
+                                                </address>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 xs-no-padding">
+                                        <div class="mh-address-footer-item media dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                            <div class="each-icon">
+                                                <i class="fa fa-envelope-o"></i>
+                                            </div>
+                                            <div class="each-info media-body">
+                                                <h4>Email</h4>
+                                                <a href="mailto:yourmail@email.com">yourmail@email.com</a><br>
+                                                <a href="mailto:yourmail@email.com">yourmail@email.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 xs-no-padding">
+                                        <div class="mh-address-footer-item media dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                            <div class="each-icon">
+                                                <i class="fa fa-phone"></i>
+                                            </div>
+                                            <div class="each-info media-body">
+                                                <h4>Phone</h4>
+                                                <a href="callto:(880)-8976-987">(880)-8976-987</a><br>
+                                                <a href="callto:(880)-8976-987">(880)-8976-987</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                    <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <input name="name" class="contact-name form-control" id="name" type="text" placeholder="First Name" required>
+                                            </div>
+                
+                                            <div class="col-sm-12">
+                                                <input name="name" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required>
+                                            </div>
+                
+                                            <div class="col-sm-12">
+                                                <input name="name" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required>
+                                            </div>
+                
+                                            <div class="col-sm-12">
+                                                <textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
+                                            </div>
+                                            
+                                            <div class="btn-form col-sm-12">
+                                                <button type="submit" class="btn btn-fill btn-block" id="form-submit">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div> -->
+                                <div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="text-left text-xs-center">
+                                                <p style="text-transform: uppercase;">All right reserved Hyo-Jung, Kim @ 2020</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!--
+    ==============
+    * JS Files *
+    ==============
+    -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <!-- jQuery -->
+    <script src="assets/plugins/js/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="assets/plugins/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/plugins/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/plugins/js/owl.carousel.js"></script>
+    <!-- validator -->
+    <script src="assets/plugins/js/validator.min.js"></script>
+    <!-- wow -->
+    <script src="assets/plugins/js/wow.min.js"></script>
+    <!-- mixin js-->
+    <script src="assets/plugins/js/jquery.mixitup.min.js"></script>
+    <!-- circle progress-->
+    <script src="assets/plugins/js/circle-progress.js"></script>
+    <!-- jquery nav -->
+    <script src="assets/plugins/js/jquery.nav.js"></script>
+    <!-- Fancybox js-->
+    <script src="assets/plugins/js/jquery.fancybox.min.js"></script>
+    <!-- Map api -->
+    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyCRP2E3BhaVKYs7BvNytBNumU0MBmjhhxc"></script>
+    <!-- isotope js-->
+    <script src="assets/plugins/js/isotope.pkgd.js"></script>
+    <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
+    <!-- Custom Scripts-->
+    <script src="assets/js/map-init.js"></script>
+    <script src="assets/js/custom-scripts.js"></script>
+
+
+</body>
+</html>
