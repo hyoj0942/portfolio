@@ -3925,3 +3925,22 @@ img.vert-move {
     bottom: 30px; /* 화면 아래쪽으로부터의 거리, 숫자만 변경 */
     }
 }
+
+.scroll_bar {
+    height: 350px;
+    overflow: auto;
+  }
+  .scroll_bar::-webkit-scrollbar {
+    width: 10px;
+  }
+  .scroll_bar::-webkit-scrollbar-thumb {
+    background-color: #2f3542;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+  }
+  .scroll_bar::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+  }
